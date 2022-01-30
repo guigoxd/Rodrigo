@@ -1,0 +1,5 @@
+let notaAC=parseFloat(prompt('Insira a nota AC'))
+let notaAG=parseFloat(prompt('Insira a nota de Avaliação Geral'))
+let notaAT=parseFloat(prompt('Insira a nota da Avaliação Trimestral'))
+let media=(notaAC*0.20)+(notaAG*0.10)+(notaAT*0.70)
+alert(`A média do aluno é de ${media}`)
